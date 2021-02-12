@@ -7,9 +7,9 @@
   align-items: center;
   flex-direction: column;
 
-  & .title-reviews {
-    width: 80%;
-
+  .title-reviews {
+    width: 80vw;
+    height: 50vh;
     display: flex;
 
     align-items: center;
@@ -17,7 +17,67 @@
     justify-content: space-around;
 
     .title {
-      width: 400px;
+      width: 480px;
+
+      h1 {
+        font-size: 45px;
+        width: 400px;
+        color: hsl(300, 43%, 22%);
+      }
+
+      p {
+        width: 450px;
+
+        margin-top: 15px;
+
+        line-height: 25px;
+      }
+    }
+
+    .reviews {
+      height: 400px;
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .review {
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+
+        background-color: hsl(300, 24%, 96%);
+        
+        position: relative;
+        top: 30px;
+
+        margin-bottom: 40px;
+
+        padding: 0 15px;
+
+        p {
+          color: hsl(300, 43%, 22%);
+          font-weight: 700;
+        }
+
+        
+        
+        img {
+          height: 20px;
+          margin-right: 10px;
+        }
+      }
+      
+      .evaluation {
+        right: 100px;
+      }
+
+      .report {
+        right: 50px;
+      }
+
+
     }
   }
 }

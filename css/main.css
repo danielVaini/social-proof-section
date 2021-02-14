@@ -38,7 +38,7 @@ body { width: 100%; height: 100%; font-family: 'Spartan'; font-size: 15px; }
 
 .comments .card .perfil .about span { color: #ee68a4; }
 
-.comments .card .description { color: white; width: 320px; line-height: 30px; }
+.comments .card .description { color: white; width: 320px; line-height: 30px; text-align: justify; }
 
 .comments .top { top: -10px; }
 

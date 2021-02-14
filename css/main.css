@@ -25,4 +25,24 @@ body { width: 100%; height: 100%; font-family: 'Spartan'; font-size: 15px; }
 .section-layout .title-reviews .reviews .evaluation { right: 100px; }
 
 .section-layout .title-reviews .reviews .report { right: 50px; }
+
+.comments { width: 80%; height: 50vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.comments .card { width: 350px; height: 300px; background-color: #502050; border-radius: 15px; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.comments .card .perfil { width: 250px; height: 100px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin: 10px 10px; }
+
+.comments .card .perfil img { width: 50px; border-radius: 50%; margin-right: 30px; }
+
+.comments .card .perfil .about { color: white; }
+
+.comments .card .perfil .about span { color: #ee68a4; }
+
+.comments .card .description { color: white; width: 320px; line-height: 30px; }
+
+.comments .top { top: -10px; }
+
+.comments .center { top: 10px; }
+
+.comments .bottom { top: 30px; }
 /*# sourceMappingURL=main.css.map */

@@ -33,7 +33,7 @@
       }
     }
   }
-
+  
   .comments {
     .card {
       top: 150px;
@@ -46,6 +46,15 @@
 }
 
 @media (max-width: 950px) {
+
+  .container{
+    background-size: 300px;
+    
+    .attribution {
+      position: relative;
+      top: 600px;
+    }
+  }
   .section-layout {
     .title-reviews {
       width: 100%;
@@ -69,7 +78,9 @@
   }
   .comments {
     flex-direction: column;
-    position: none;
+    align-items: center;
+
+   
 
     .card {
       width: 300px;
@@ -77,22 +88,56 @@
 
       margin-bottom: 50px;
 
-      left: 25%;
+      align-items: center;
     }
   }
+
+  
 }
 
 
 @media (max-width: 750px) {
   .comments {
     display: flex;
-
-    .card {
-      right: 22%;
-    }
     
-  
+  }
+}
 
-     
+@media (max-width: 480px) {
+  .comments{
+    margin-top: -80px;
+  }
+  .section-layout {
+    margin-top: 20px;
+    .title-reviews {
+      .title{
+        h1 {
+          font-size: 30px;
+        }
+
+        p{
+          font-size: 10px;
+        }
+
+      }
+      .reviews{
+        height: 300px;
+
+        .review {
+          height: 30px;
+          padding: 0 5px;
+
+          margin-bottom: 20px;
+
+          p {
+            font-size: 10px;
+          }
+
+          img {
+            height: 10px;
+          }
+        }
+      }
+    }
   }
 }
